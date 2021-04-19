@@ -86,6 +86,16 @@ Outra base de dados foi criada para não fazer os testes de integração em uma 
 
 Toda configuração foi feita com swagger para possibilitar testar os endpoints da aplicação de uma forma mais fácil e visual, com todas as explicações necessárias em cada uma.
 
+### API KEY
+
+Provavelmente a "API KEY" vai estar expirada, você pode gerar uma através da sua conta na RIOT e modificar nos arquivos:
+
+```bash
+.env
+./src/config/jestSetup.ts
+```
+
+" Estes dois arquivos somente foram upados para o github para não gerar complicações quando a aplicação estiver em teste"
 
 ## Anexos
 
